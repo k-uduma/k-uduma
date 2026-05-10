@@ -1,33 +1,62 @@
-# 👋 Hi, I'm Kelvin!
+# 👋 Hi, I'm Kelvin Uduma
 
-- ⚓ I'm the **Maritime Digital Operations & Cybersecurity Lead** at **Jetense Consultants Limited** bridging the gap between IT infrastructure and maritime operations. I am passionate about Cybersecurity compliance, IT governance, and data analysis.
-- 🏆 I am **ISC2 Certified in Cybersecurity (CC)**
-- ☁️ I specialize in **Digital Transformation** (Microsoft 365/SharePoint) & **Cloud Migration**
-- 🧬 I'm an **MSc Candidate** using **Python & R** for genomics and climate-resilient breeding
-- 📍 Based in **Port Harcourt, Nigeria** (Open to Remote)
-- 📫 You can reach me on [LinkedIn](https://www.linkedin.com/in/kelvinuduma/)
+**Maritime Digital Operations & Cybersecurity Lead** at [Jetense Consultants Limited](https://jetenseconsultants.com/) — building secure digital infrastructure for offshore fleets in Nigeria.
 
 <div align="left">
   <a href="https://www.linkedin.com/in/kelvinuduma/">
-    <img src="https://img.shields.io/badge/Follow%20me%20on-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="Follow on LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://github.com/kelvinuduma">
-    <img src="https://img.shields.io/github/followers/k-uduma?label=Follow%20me%20on%20GitHub&style=flat-square&logo=github" alt="Follow on GitHub">
+  <a href="https://kelvinuduma.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-22d3ee?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio">
   </a>
   <a href="https://twitter.com/k_uduma">
-    <img src="https://img.shields.io/badge/Follow%20me%20on-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Follow on Twitter">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter">
   </a>
 </div>
 
-### 🔭 **What I'm Working On**
-- 🚢🔐 **Maritime Cybersecurity:** Developing IT Policy and Procedure documents (Disaster Recovery, InfoSec, Account Management) tailored for the Nigerian maritime industry. Governance, Risk, and Compliance (GRC) for offshore fleets. Deploying Smart Vessel software.
-- **Digital Transformation:** Creating electronic Safety Observation Cards (J-SOC) to streamline safety reporting in marine operations.
-- 📊 **Thesis Research:** Conducting statistical analysis on *Carica papaya* genotypes using **R Studio** (Completely Randomized Design).
+---
 
-### 🌱 **What I'm Learning & Exploring**
-- **Advanced Compliance:** Deepening knowledge of the **ISM Code** and its intersection with cyber risk management.
-- 📦**Virtualization:** Experimenting with **VMware** and **VirtualBox** for secure testing environments (Running Linux and macOS on Windows).
+### 🔭 What I Do
 
-## Topics I enjoy
-- 🌍 **Sustainability**: Carbon Accounting & ESG Awareness (Climate Reality Leader)
-- 📝 **IT Governance**: Developing Disaster Recovery Plans & InfoSec Policies
+I sit at the intersection of **maritime operations**, **cybersecurity**, and **applied research** — a space very few people occupy.
+
+- 🔐 **ISC2 Certified in Cybersecurity (CC)** — authored 14+ enterprise IT security policies for maritime operations
+- 🚢 **Vessel Infrastructure** — deployed network, CCTV, Starlink, and SmartVessel software across AHTS fleet
+- 📋 **ISM Code Compliance** — built a 110-document Safety Management System covering all ISM sections
+- 🐍 **Python/R Tooling** — build automation tools for budget validation, data analysis, and operational reporting
+- 🧬 **MSc Candidate (MOUAU)** — genetics/genomics research on *Carica papaya* using R Studio
+
+### 🏆 Certifications & Affiliations
+
+| Credential | Organization |
+|-----------|-------------|
+| Certified in Cybersecurity (CC) | ISC2 |
+| Global Shaper Alumni | World Economic Forum |
+| Climate Reality Leader | The Climate Reality Project |
+
+### 📌 Featured Work
+
+> *These repos showcase the actual systems and documentation I've built — not just coursework or forks.*
+
+| Repo | What's Inside |
+|------|--------------|
+| [`jetense-sms-docs`](https://github.com/kelvinuduma/jetense-sms-docs) | 🚢 110-file ISM Code SMS — all 13 sections, 49 operational forms, editable sources |
+| [`jetense-cyber-sops`](https://github.com/kelvinuduma/jetense-cyber-sops) | 🔐 22 cybersecurity policy documents, audit report, remediation roadmap |
+| [`jetense-it-infrastructure`](https://github.com/kelvinuduma/jetense-it-infrastructure) | 🌐 42-file IT infrastructure portfolio — vessel networks, CCTV, Starlink, SATCOM |
+| [`jetense-opex-budget-flow`](https://github.com/kelvinuduma/jetense-opex-budget-flow) | 🐍 Python budget validation tool (385 lines, stdlib-only XLSX parser) |
+| [`SmartVessel-Training`](https://github.com/kelvinuduma/SmartVessel-Training) | 📡 Fleet software deployment — training framework, scripts, implementation tracking |
+| [`mouau-genetics-research`](https://github.com/kelvinuduma/mouau-genetics-research) | 🧬 MSc thesis data & analysis — *Carica papaya* genotypes, CRD statistical design |
+
+### 🌱 Currently Working On
+
+- 📹 Producing SmartVessel training videos (Cloud vs Local Server two-track approach)
+- 📊 Expanding budget automation tooling with BIMCO-aligned templates
+- 🔒 Maritime Cyber Risk Management procedures (NIST CSF aligned)
+
+### 💡 Topics I'm Passionate About
+
+`Maritime Cybersecurity` · `ISM Code Compliance` · `IT Governance & GRC` · `Vessel Network Infrastructure` · `Digital Transformation` · `Applied Genomics` · `Carbon Accounting & ESG`
+
+---
+
+📍 **Port Harcourt, Nigeria** — Open to remote opportunities and collaboration
