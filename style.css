@@ -658,7 +658,7 @@ body {
 .credentials-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 16px;
 }
 
 .credential-card {
