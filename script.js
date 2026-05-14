@@ -100,4 +100,53 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // --- Modal Logic ---
+    const modals = document.querySelectorAll('.modal');
+    const overlay = document.getElementById('modalOverlay');
+    const closeButtons = document.querySelectorAll('.modal-close');
+
+    // Make project cards clickable to open modals
+    const projectMap = {
+        'JCL Safety Management System': 'modal-sms',
+        'Cybersecurity Policy Suite': 'modal-cyber',
+        'IT Infrastructure Portfolio': 'modal-it',
+        'Budget Link Integrity Checker': 'modal-budget',
+        'SmartVessel Deployment': 'modal-smartvessel',
+        'Papaya Genetic Diversity Research': 'modal-papaya',
+        'Outlook + OneDrive MCP Server': 'modal-mcp'
+    };
+
+    document.querySelectorAll('.project-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const titleElement = card.querySelector('h3');
+            if (titleElement) {
+                const title = titleElement.textContent.trim();
+                const modalId = projectMap[title];
+                if (modalId) {
+                    const modal = document.getElementById(modalId);
+                    if (modal) {
+                        modal.classList.add('active');
+                        overlay.classList.add('active');
+                        document.body.style.overflow = 'hidden';
+                    }
+                }
+            }
+        });
+    });
+
+    const closeModal = () => {
+        modals.forEach(m => m.classList.remove('active'));
+        if (overlay) overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    };
+
+    closeButtons.forEach(btn => btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        closeModal();
+    }));
+    
+    if (overlay) {
+        overlay.addEventListener('click', closeModal);
+    }
 });
