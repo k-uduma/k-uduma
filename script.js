@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Budget Link Integrity Checker': 'modal-budget',
         'SmartVessel Deployment': 'modal-smartvessel',
         'Papaya Genetic Diversity Research': 'modal-papaya',
-        'Outlook + OneDrive MCP Server': 'modal-mcp'
+        'Microsoft Graph MCP Server': 'modal-mcp'
     };
 
     document.querySelectorAll('.project-card').forEach(card => {
