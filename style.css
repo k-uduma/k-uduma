@@ -468,6 +468,34 @@ body {
     gap: 16px;
 }
 
+.about-profile-card {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+}
+
+.profile-image-container {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid var(--accent-primary);
+    box-shadow: var(--shadow-glow);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.08);
+}
+
 .highlight-card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
@@ -821,6 +849,7 @@ body {
 
 @media (max-width: 480px) {
     .about-highlights { grid-template-columns: 1fr; }
+    .about-profile-card { grid-column: span 1; }
     .credentials-grid { grid-template-columns: 1fr; }
     .proof-strip { flex-direction: column; gap: 20px; }
     .stat { flex: none; }
