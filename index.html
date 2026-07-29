@@ -266,6 +266,21 @@
         <h2 class="section-title">What I've shipped</h2>
         <div class="projects-grid">
           <div class="project-card project-featured">
+            <div class="project-badge">Live tool</div>
+            <h3>ISM Code ↔ NIST CSF 2.0 Crosswalk</h3>
+            <p>
+              An open, MIT-licensed practitioner reference mapping 21 NIST CSF
+              2.0 subcategories — across all six functions — onto ISM Code
+              sections, IMO MSC.428(98), and MSC-FAL.1/Circ.3/Rev.3. Six rows
+              are flagged as genuine gaps rather than smoothed over. Filterable
+              and exportable, instead of another prose PDF.
+            </p>
+            <div class="project-tech">
+              <span>NIST CSF 2.0</span><span>ISM Code</span><span>IMO</span
+              ><span>Open source</span>
+            </div>
+          </div>
+          <div class="project-card">
             <div class="project-badge">Fleet GRC</div>
             <h3>JCL Safety Management System</h3>
             <p>
@@ -488,6 +503,47 @@
 
     <!-- Modals -->
     <div class="modal-overlay" id="modalOverlay"></div>
+
+    <div class="modal" id="modal-crosswalk">
+      <button class="modal-close">×</button>
+      <h3>ISM Code ↔ NIST CSF 2.0 Crosswalk</h3>
+      <p>
+        <strong>Case Study:</strong> MSC-FAL.1/Circ.3/Rev.3 tells DPAs and ship
+        managers to structure maritime cyber risk management around a five-step
+        framework mirroring the NIST Cybersecurity Framework — but never says
+        what each control looks like inside an actual ISM Code Safety Management
+        System. This closes that gap: 21 NIST CSF 2.0 subcategories across all
+        six functions, mapped to ISM Code sections, MSC.428(98), and
+        MSC-FAL.1/Circ.3/Rev.3, each with a plain-English note on what it looks
+        like on the vessel.
+      </p>
+      <p>
+        <strong>Impact:</strong> A citable, filterable reference for DPAs, ISM
+        and ISPS compliance officers, and maritime cyber consultants. Six rows
+        carry no strong ISM equivalent and are flagged as gaps rather than
+        smoothed over. Published open source under MIT.
+      </p>
+      <p style="margin-top: 1rem">
+        <strong>Live tool:</strong>
+        <a
+          href="https://kelvinuduma.github.io/ism-cyber-crosswalk/"
+          target="_blank"
+          rel="noopener"
+          class="modal-link"
+          style="color: var(--accent-primary); text-decoration: underline"
+          >kelvinuduma.github.io/ism-cyber-crosswalk</a
+        >
+        &nbsp;·&nbsp;
+        <a
+          href="https://github.com/kelvinuduma/ism-cyber-crosswalk"
+          target="_blank"
+          rel="noopener"
+          class="modal-link"
+          style="color: var(--accent-primary); text-decoration: underline"
+          >Source</a
+        >
+      </p>
+    </div>
 
     <div class="modal" id="modal-sms">
       <button class="modal-close">×</button>
