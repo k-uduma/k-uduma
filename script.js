@@ -119,7 +119,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "IT Infrastructure Portfolio": "modal-it",
     "Budget Link Integrity Checker": "modal-budget",
     "SmartVessel Deployment": "modal-smartvessel",
-    "Papaya Genetic Diversity Research": "modal-papaya",
     "Microsoft Graph MCP Server": "modal-mcp",
   };
 
